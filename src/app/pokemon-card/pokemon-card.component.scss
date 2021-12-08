@@ -1,0 +1,141 @@
+.pokemon-card{  
+    font-family: "Signika", arial, sans-serif;
+    margin: 0 5px 50px;
+    width: 225px;
+    height: 575px;
+    border-radius: 3rem;
+    border: 3px groove;
+    
+    &__name{
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+
+    &__number{
+        padding:0 10px;
+    }
+    &__types{
+        text-transform: capitalize;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    &__type{
+        font-size: 1rem;
+        text-align: center;
+        width: 25% ;
+        margin: 0 auto;
+        padding: 1rem;
+        border-radius: 2rem;
+    
+
+        
+        &--normal{
+            color: #fff;
+            background-color: silver;
+        }
+        
+        &--poison{
+            color: #fff;
+            background-color: purple;
+        }
+        
+        &--psychic{
+            color: #fff;
+            background-color: crimson;
+        }
+        
+        &--grass{
+            color: #fff;
+            background-color: green;
+        }
+
+        &--ground{
+            color: #fff;
+            background-color: sienna;
+        }
+
+        &--ice{
+            color: #fff;
+            background-color: lightblue;
+        }
+
+        &--fire{
+            color: #fff;
+            background-color: chocolate;
+        }
+        &--rock{ 
+            color: #fff;
+            background-color: burlywood;
+        }
+        
+        &--dragon{
+            color: #fff;
+            background-color: darkviolet;
+        }
+        
+        &--water{
+            color: #fff;
+            background-color: dodgerblue;
+        }
+        
+        &--bug{
+            color: #fff;
+            background-color: olivedrab;
+        }
+        
+        &--dark{
+            color: #fff;
+            background-color: saddlebrown ;
+        }
+        
+        &--fighting{
+            color: #fff;
+            background-color: Brown;
+        }
+        
+        &--ghost{
+            color: #fff;
+            background-color: darkslateblue;
+        }
+        
+        &--steel{
+            color: #fff;
+            background-color: grey;
+        }
+        
+        &--flying{
+            color: #fff;
+            background-color: cornflowerblue;
+        }
+        
+        &--electric{
+            color: #fff;
+            background-color: orange;
+        }
+        
+        &--fairy{
+            color: #fff;
+            background-color: orchid;
+        }
+
+    }
+
+    mat-card-actions{
+        text-align: center;
+        button {
+            height: 3rem;
+            width: 150px;
+            border-radius: 2rem;
+            margin-top: 1.5rem;
+            &:hover{
+                transition: 0.2s;
+                font-size: 1.1rem;
+                background-color: rgb(196, 0, 245);
+            }
+        }
+    }
+}    

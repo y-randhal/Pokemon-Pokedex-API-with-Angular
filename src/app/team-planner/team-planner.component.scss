@@ -1,0 +1,27 @@
+:host{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+}
+h1{
+    padding-top: 150px ;
+    font-size: 3rem;
+    img{
+        width: 50px;
+    }
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .team-card{
+        width: 600px;
+    }
+}
+
+mat-icon{
+    font-size: 5rem;
+}

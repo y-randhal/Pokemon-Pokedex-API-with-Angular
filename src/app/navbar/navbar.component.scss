@@ -1,0 +1,49 @@
+*{
+  background: rgb(46, 46, 46);
+}
+
+mat-toolbar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  #logo{
+    background: none;
+        img{
+        background: none;
+        width: 2.4rem;
+        }
+        span{
+          font-family: 'Noto Sans JP', sans-serif;
+          letter-spacing: 3px;
+          background: none;
+        }
+        a{
+          background: none;
+          color: #fff;
+          text-decoration: none;
+      }
+  }
+
+  #navlinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #fff ;
+    background-color: inherit;
+    a{
+      text-decoration: none;
+      font-size: 1rem;
+      padding-right: 1rem;
+      color: #fff;
+      background-color: inherit;
+      mat-icon{
+        color: inherit;
+        background-color: inherit;
+      }
+    }
+  }
+
+}
+

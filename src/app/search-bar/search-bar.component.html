@@ -1,0 +1,12 @@
+<form class="search-form" >
+    <input mat-input type="text"
+          placeholder="Search for a pokemon"
+          [formControl]="control"
+          [matAutocomplete]="auto">
+          <mat-icon class="search">search</mat-icon>
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let pokemon of filteredPokemons | async" [value]="pokemon">
+        {{pokemon}}
+      </mat-option>
+    </mat-autocomplete>
+</form>

@@ -1,0 +1,21 @@
+export enum Type{
+    Normal = 'Normal',
+    Poison = 'Poison',
+    Psychic = 'Psychic',
+    Grass = 'Grass',
+    Ground = 'Ground',
+    Ice = 'Ice',
+    Fire = 'Fire',
+    Rock = 'Rock',
+    Dragon = 'Dragon',
+    Water = 'Water',
+    Bug = 'Bug',
+    Dark = 'Dark',
+    Fighting = 'Fighting',
+    Ghost = 'Ghost',
+    Steel = 'Steel',
+    Flying = 'Flying',
+    Electric = 'Electric',
+    Fairy = 'Fairy',
+ 
+  };

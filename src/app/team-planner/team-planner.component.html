@@ -1,0 +1,6 @@
+<div>
+    <h1>MyTEAM <img src="../../assets/img/pokeball.png" alt=""></h1>
+    <div id="team">
+        <app-pokemon-card *ngFor="let pokemon of pokemonService.pokemons | slice:3:7; let i=index" [pokemon]="pokemon" >{{i}} {{pokemon}}</app-pokemon-card>
+    </div>
+</div>
